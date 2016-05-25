@@ -71,7 +71,7 @@ int main(void)
 
 	ShowHelpText();
 
-	frame = imread("../Res/lena.jpg");
+	frame = imread("../Res/stars.jpg");
 
 	//-- 3. 对当前帧使用分类器（Apply the classifier to the frame）
 	if (!frame.empty())
